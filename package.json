@@ -1,0 +1,23 @@
+{
+  "name": "learning-ai-agents",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@huggingface/inference": "^3.3.2",
+    "@langchain/community": "^0.3.29",
+    "@langchain/core": "^0.3.39",
+    "@langchain/google-genai": "^0.1.8",
+    "@langchain/langgraph": "^0.2.45",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "openai": "^4.80.0",
+    "zod": "^3.24.1"
+  }
+}
