@@ -22,7 +22,7 @@ if (!GOOGLE_API_KEY) {
 }
 
 const llm = new ChatGoogleGenerativeAI({
-  modelName: "gemini-pro",
+  modelName: "gemini-2.5-pro",
   apiKey: GOOGLE_API_KEY,
   maxOutputTokens: 1024,
   timeout: 10000,
